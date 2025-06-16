@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+*.log
+
+# Docker
+*.tar
+*.img
+*.pid
+
+# Helm
+helm-charts/webapp/charts/
+helm-charts/webapp/tmp/
+*.tgz
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+override.tf
+override.tf.json
+*.backup
+
+# Kubernetes
+.kube/
+*.yaml.save
+
+# AWS credentials (just in case)
+.aws/
+
+# System
+.DS_Store
+Thumbs.db
+
+# VSCode & IDEs
+.vscode/
+.idea/
+*.swp
+

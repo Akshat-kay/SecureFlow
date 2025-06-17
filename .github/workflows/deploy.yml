@@ -1,4 +1,4 @@
-name: CI/CD: Lint → Test → Build → Deploy
+name: ci-cd-workflow
 
 on:
   push:
